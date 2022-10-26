@@ -1,0 +1,53 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+font-size: 16px;
+max-width: 100vh;
+margin: 0 auto;
+font-family:Verdana;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.tarjeta {
+    background-color: aqua;
+    width: 20rem;
+    text-align: center;
+    color:black;
+    overflow: hidden;
+    transition: transform .3s ease-in-out;
+
+}
+.tarjeta:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta_parrafo{
+    padding: 1rem;
+    font-size: 1rem;
+   
+
+}
+
+.tarjeta_titulo  {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
